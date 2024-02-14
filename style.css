@@ -1,0 +1,177 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    
+        background: url(Cupertino\ Cherry\ Blossom\ Festival.gif);
+        background-repeat: repeat;
+        background-size: contain;
+
+}
+
+.container
+{
+    padding-top: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.head
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px; 
+    margin: 10px;
+
+
+}
+
+
+h1 
+{
+    background-color: #fa7e9d;
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 2px;   
+    border: 2px solid;
+    border-radius: 10%;
+}
+
+
+.child {
+    padding: 0.5rem;
+}
+
+.containers
+{
+    border: 2px solid;
+    border-radius: 10%;
+    padding: 1rem;
+    background-color: #fa7e9d;
+    
+}
+
+p
+{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.parent 
+{
+    display: grid;
+    grid-template-areas:
+      'header1 header2 header3'
+      'footer1 footer2 footer3';
+}
+
+  .container1 { grid-area: header1; }
+  .container2 { grid-area: header2; }
+  .container3 { grid-area: header3; }
+  .container4 { grid-area: footer1; }
+  .container5 { grid-area: footer2; }
+  .container6 { grid-area: footer3; }
+
+
+  @media screen and (min-width: 280px){
+    .parent {
+        display: grid;
+        grid-template-areas:
+          'header1'
+          'header2'
+          'header3'
+          'footer1'
+          'footer2'
+          'footer3';
+      }
+  }
+
+  @media screen and (min-width: 576px){
+    .parent {
+        display: grid;
+        grid-template-areas:
+          'header1'
+          'header2'
+          'header3'
+          'footer1'
+          'footer2'
+          'footer3';
+
+      }
+
+  }
+  
+  @media screen and (min-width: 768px){
+    .parent {
+        display: grid;
+        grid-template-areas:
+          'header1'
+          'header2'
+          'header3'
+          'footer1'
+          'footer2'
+          'footer3';
+      }
+  }
+  
+  @media screen and (min-width: 992px){
+    .parent {
+        display: grid;
+        grid-template-areas:
+          'header1'
+          'header2'
+          'header3'
+          'footer1'
+          'footer2'
+          'footer3';
+      }
+  }
+
+  @media screen and (min-width: 1200px){
+    .parent {
+        display: grid;
+        grid-template-areas:
+          'header1 header2 header3'
+          'footer1 footer2 footer3';
+
+      }
+  }
+  @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4){
+    .cons {
+        display: grid;
+        grid-template-areas:
+          'header1'
+          'header2'
+          'header3'
+          'footer1'
+          'footer2'
+          'footer3';
+      }
+  }
+a{
+    color: rgb(35, 51, 86);
+}
+a:hover, a:focus {
+    background-color: rgb(235, 71, 210);
+}
+a:active{
+    color: rgb(147, 62, 62);
+}
+
+/*background*/
+petal {
+    display: inline-block;
+    width: 0; height: 0;
+    padding: 20px 9px;
+    background: rgba(0,0,100,.4);
+    transform: rotate(72deg);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background: rgba(250, 49, 196, 0.4);
+    position:absolute;
+    }
+
