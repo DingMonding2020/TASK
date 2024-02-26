@@ -81,12 +81,9 @@ p
     .parent {
         display: grid;
         grid-template-areas:
-          'header1'
-          'header2'
-          'header3'
-          'footer1'
-          'footer2'
-          'footer3';
+        
+          'header1 header2 header3'
+          'footer1 footer2 footer3';
       }
   }
 
@@ -94,12 +91,9 @@ p
     .parent {
         display: grid;
         grid-template-areas:
-          'header1'
-          'header2'
-          'header3'
-          'footer1'
-          'footer2'
-          'footer3';
+        
+          'header1 header2 header3'
+          'footer1 footer2 footer3';
 
       }
 
@@ -109,12 +103,9 @@ p
     .parent {
         display: grid;
         grid-template-areas:
-          'header1'
-          'header2'
-          'header3'
-          'footer1'
-          'footer2'
-          'footer3';
+         
+          'header1 header2 header3'
+          'footer1 footer2 footer3';
       }
   }
   
@@ -122,12 +113,9 @@ p
     .parent {
         display: grid;
         grid-template-areas:
-          'header1'
-          'header2'
-          'header3'
-          'footer1'
-          'footer2'
-          'footer3';
+        
+          'header1 header2 header3'
+          'footer1 footer2 footer3';
       }
   }
 
@@ -144,12 +132,9 @@ p
     .cons {
         display: grid;
         grid-template-areas:
-          'header1'
-          'header2'
-          'header3'
-          'footer1'
-          'footer2'
-          'footer3';
+          
+          'header1 header2 header3'
+          'footer1 footer2 footer3';
       }
   }
 a{
